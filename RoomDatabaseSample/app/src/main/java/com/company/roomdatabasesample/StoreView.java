@@ -57,6 +57,7 @@ public class StoreView extends AppCompatActivity {
         });
 
         //New chnages commit 1 for Dev brnach
+        //New Chnages commit 2 for Dev branch
 
         mViewModelStore.getStoredata().observe(this, new Observer<List<RoomEntity>>() {
             @Override
