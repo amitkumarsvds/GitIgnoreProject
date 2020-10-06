@@ -29,6 +29,8 @@ public class StoreView extends AppCompatActivity {
 
         setUiContent();
 
+        ///For Dev branch 1:09
+
         mViewModelStore = ViewModelProviders.of(StoreView.this).get(StoreViewModel.class);
 
         mBtnName.setOnClickListener(new View.OnClickListener() {
