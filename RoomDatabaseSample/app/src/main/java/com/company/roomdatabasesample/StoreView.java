@@ -31,6 +31,8 @@ public class StoreView extends AppCompatActivity {
 
         ///For Dev branch 1:09  //ADDDDD
 
+        //
+
         mViewModelStore = ViewModelProviders.of(StoreView.this).get(StoreViewModel.class);
 
         mBtnName.setOnClickListener(new View.OnClickListener() {
@@ -53,6 +55,9 @@ public class StoreView extends AppCompatActivity {
                 }
             }
         });
+
+        //New chnages commit 1 for Dev brnach
+        //New Chnages commit 2 for Dev branch
 
         mViewModelStore.getStoredata().observe(this, new Observer<List<RoomEntity>>() {
             @Override
